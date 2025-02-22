@@ -1,0 +1,50 @@
+/*
+Description:
+============
+
+A geometric animation using a set of circles rotating. At high intensity, it somewhat resembles a flame mandala, going from blue to red with increased intensity.
+
+
+Instructions:
+=============
+
+Left click increases the intensity. This creates a new circle, a new nested circle, and moves the colour toward red.
+
+Right click decreases the intensity. This removes a circle, one nested circle, and moves the colour toward blue.
+
+Middle click toggles between a low setting and a high setting.
+
+
+Known bugs/problems:
+====================
+
+The sizing and colour is not consistent after using the middle click to jump between increment sizes.
+If you just left click to high intensity, then right click back, it's consistent.
+If you use the toggle to set high intensity, you'll see different sizing and colouring as you right click toward low intensity.
+
+
+Sources:
+========
+
+// Background size divisibility
+https://en.wikipedia.org/wiki/Highly_composite_number
+
+// Working with circles
+https://processing.org/reference/cos_.html
+https://processing.org/reference/sin_.html
+https://processing.org/reference/two_pi
+
+// General Java
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Java-array-size-explained-by-example
+https://stackoverflow.com/questions/57953417/how-to-fix-cannot-be-resolved-to-a-variable-error-in-java
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Java-array-size-explained-by-example
+
+// Processing examples and general reference
+https://processing.org/examples/sinewave.html
+https://processing.org/reference/random_.html
+https://processing.org/reference/for.html
+https://processing.org/reference/if.html
+https://processing.org/reference/while.html
+
+*/
+
