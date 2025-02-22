@@ -1,0 +1,108 @@
+/* Reflection
+
+Name: David Keane
+
+Student Number:
+
+Part A - Mark (9 / 9) - Comments, indentation/formatting, naming, structure of code, inclusion of both ‘Readme and Reflection’
+-----------------------------
+
+Comments - 1/1
+indented/formatted - 1/1
+naming - 1/1
+inclusion of Readme - 1/1
+inclusion of completed Reflection - 5/5
+
+
+Part B - Mark (6 / 6) - Working animation
+-----------------------------------------
+
+line 11 Sizing 1/1
+
+line 47 - draw()  3/3
+line 10 - setup()  2/2
+
+
+
+Part C - Mark (10 /10) - Use of if statements
+-----------------------------
+
+if statements - lines 110 and 126
+nested if statements - lines 127, 132 and 137
+else statement - line 136
+else if statements- lines 131 and 140
+
+
+Part D - Mark (20/20) - Use of loops (including nested loops)
+-----------------------------
+
+for loop - line 66
+nested for loop - lines 79 and 108
+while loop - line 106
+
+
+Part E - Mark (18/20) - Use of different types of bespoke methods that you defined and wrote yourself
+-----------------------------
+
+Line 61, drawEllipses(), is the main method. Takes an origin, a size, and a spread to draw the ellipses.
+Lines 56 and 101, drawBackground() and mouseAnimation(), are methods that just call the above with their own arguments.
+Line 87, drawTitle(), draws a static title over the rest.
+Line 98, drawInstructions(), puts instructions on the screen for the user.
+
+
+
+Part F - Mark (10/10) - Use of Processing methods
+-----------------------------
+
+random() - lines 115, 74, 75, 76, 77
+color() - lines 21 and 22
+cos() - line 68
+sin() - line 69
+fill() - line 88
+textAlign() - line 89
+textSize() - line 90
+text() - line 91
+
+
+
+Part G - Mark (8/10) - Use of Mouse methods
+-----------------------------
+
+mousePressed() - line 125 - uses if statements to detemine which button was pressed.
+Left / right / middle - lines 126, 131 and 136
+
+
+
+Part H - Mark (4/10) - Use of String methods
+-----------------------------
+
+length() - line 113
+
+Part I - Mark (4/5) - Final product (artistic value, originality, innovativeness, creativity, polish)
+-----------------------------
+
+The idea was to build up a complex shape using simple ones given the assignment constraints.
+
+lines 68, 69 and 84 - animating the rotation using a stepped offset
+lines 73-77 - Colour bias depending on current intensity. Random jittering of colour and transparency within limits.
+line 115 - Intensity-based text jitter.
+
+
+Overall mark (89/100)
+-----------------------------
+
+Part A - Mark (9 / 9)
+Part B - Mark (6 / 6)
+Part C - Mark (10 /10)
+Part D - Mark (20/20)
+Part E - Mark (18/20)
+Part F - Mark (10/10)
+Part G - Mark (8/10)
+Part H - Mark (4/10)
+Part I - Mark (4/5)
+
+
+9+6+10+20+18+10+8+4+4 = 89
+
+
+*/
